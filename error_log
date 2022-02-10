@@ -1,0 +1,347 @@
+[10-Sep-2020 23:19:36 UTC] PHP Warning:  require_once(/home3/technqp8/public_html/trs-sandbox/wp-content/plugins/jetpack/vendor/automattic/jetpack-partner/src/class-partner.php): failed to open stream: No such file or directory in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/jetpack/vendor/autoload_functions.php on line 39
+[10-Sep-2020 23:19:36 UTC] PHP Fatal error:  require_once(): Failed opening required '/home3/technqp8/public_html/trs-sandbox/wp-content/plugins/jetpack/vendor/automattic/jetpack-partner/src/class-partner.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/jetpack/vendor/autoload_functions.php on line 39
+[10-Sep-2020 23:19:38 UTC] PHP Warning:  Declaration of WP_CLI\UpgraderSkin::feedback($string) should be compatible with WP_Upgrader_Skin::feedback($string, ...$args) in phar:///usr/local/bin/wp/vendor/wp-cli/wp-cli/php/WP_CLI/UpgraderSkin.php on line 59
+[05-Feb-2021 16:09:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[05-Feb-2021 16:11:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[05-Feb-2021 16:14:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[07-Feb-2021 22:04:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[07-Feb-2021 22:07:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[07-Feb-2021 22:10:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[07-Feb-2021 22:12:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[07-Feb-2021 22:18:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[07-Feb-2021 22:21:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[07-Feb-2021 22:24:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[07-Feb-2021 22:26:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[07-Feb-2021 22:28:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[07-Feb-2021 22:49:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[08-Feb-2021 00:44:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[08-Feb-2021 00:46:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[08-Feb-2021 00:51:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[08-Feb-2021 00:55:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[08-Feb-2021 01:00:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[08-Feb-2021 01:03:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[08-Feb-2021 01:05:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[08-Feb-2021 01:08:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[08-Feb-2021 01:19:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[08-Feb-2021 01:22:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(287): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[06-Oct-2021 00:54:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(303): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[06-Oct-2021 00:56:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(303): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[06-Oct-2021 00:58:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(303): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[06-Oct-2021 01:02:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(303): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[06-Oct-2021 01:04:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(303): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[06-Oct-2021 01:07:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(303): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[06-Oct-2021 01:10:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(303): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[06-Oct-2021 01:12:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(303): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[06-Oct-2021 01:42:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(303): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[06-Oct-2021 01:45:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(303): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[06-Oct-2021 01:47:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(303): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[06-Oct-2021 01:49:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(303): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[06-Oct-2021 01:55:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(303): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[06-Oct-2021 01:57:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(303): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[06-Oct-2021 01:59:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(303): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[06-Oct-2021 02:01:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(303): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[06-Oct-2021 02:03:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(303): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[06-Oct-2021 02:06:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(303): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[06-Oct-2021 02:08:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(303): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162
+[06-Oct-2021 04:37:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method MonsterInsights_License_Compat::get_license_type() in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php:162
+Stack trace:
+#0 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(132): MonsterInsights_Notifications->verify(Array)
+#1 /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php(308): MonsterInsights_Notifications->fetch_feed()
+#2 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(303): MonsterInsights_Notifications->update()
+#3 /home3/technqp8/public_html/trs-sandbox/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home3/technqp8/public_html/trs-sandbox/wp-includes/plugin.php(518): WP_Hook->do_action(Array)
+#5 /home3/technqp8/public_html/trs-sandbox/wp-cron.php(138): do_action_ref_array('monsterinsights...', Arr in /home3/technqp8/public_html/trs-sandbox/wp-content/plugins/google-analytics-for-wordpress/includes/admin/notifications.php on line 162

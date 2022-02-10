@@ -1,0 +1,111 @@
+﻿<body>
+
+<link href="css/liquid-slider.css" rel="stylesheet">
+<div style="width: 300px; margin-left: auto; margin-right: auto;" class="news-tabs">
+	<div id="slider-6" class="liquid-slider">
+	
+	
+<!-- DO NOT EDIT ABOVE THIS LINE ================================================== -->
+
+
+
+		<div>
+		
+		<h2 class="title">News</h2>
+		<p>Proin nec turpis eget dolor dictum lacinia. Nullam nunc magna, tincidunt eu porta 
+		in, faucibus sed magna. Suspendisse laoreet ornare ullamcorper. Nulla in tortor 
+		nibh. Pellentesque sed est vitae odio vestibulum aliquet in nec leo.</p>
+		
+		</div>
+		
+		
+		<div>
+		
+		<h2 class="title">Events</h2>
+		<p>Proin nec turpis eget dolor dictum lacinia. Nullam nunc magna, tincidunt eu porta 
+		in, faucibus sed magna. Suspendisse laoreet ornare ullamcorper. Nulla in tortor 
+		nibh. Pellentesque sed est vitae odio vestibulum aliquet in nec leo.</p>
+		
+		</div>
+		
+		
+		<div>
+		
+		<h2 class="title">Updates</h2>
+		<p>Proin nec turpis eget dolor dictum lacinia. Nullam nunc magna, tincidunt eu porta 
+		in, faucibus sed magna. Suspendisse laoreet ornare ullamcorper. Nulla in tortor 
+		nibh. Pellentesque sed est vitae odio vestibulum aliquet in nec leo.</p>
+		
+		</div>
+		
+		
+		<div>
+		
+		<h2 class="title">Coming Soon</h2>
+		<p>Proin nec turpis eget dolor dictum lacinia. Nullam nunc magna, tincidunt eu porta 
+		in, faucibus sed magna. Suspendisse laoreet ornare ullamcorper. Nulla in tortor 
+		nibh. Pellentesque sed est vitae odio vestibulum aliquet in nec leo.</p>
+		
+		</div>
+		
+		
+
+<!-- DO NOT EDIT BELOW THIS LINE ================================================== -->
+
+
+
+	</div>
+</div>
+
+
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.touchSwipe.min.js"></script>
+<script src="js/jquery.liquid-slider.js"></script>
+<script>
+jQuery('#slider-6').liquidSlider({
+  autoHeight:false,
+  slideEaseFunction:'animate.css',
+  slideEaseDuration:1000,
+  heightEaseDuration:1000,
+  animateIn:"rotateInUpRight",
+  animateOut:"rotateOutUpLeft",
+  callback: function() {
+    var self = this;
+    jQuery('.slider-6-panel').each(function() {
+      jQuery(this).removeClass('animated ' + self.options.animateIn);
+    });
+  }
+});
+jQuery('.height-toggle').on('click', function(e) {
+  var api = jQuery.data( jQuery('#slider-6')[0], 'liquidSlider');
+  if (jQuery(this).text() === "turn off") {
+    api.options.autoHeight = false;
+    jQuery(this).text('turn on'); 
+    api.adjustHeight(false, api.getHeighestPanel());
+  } else {
+    api.options.autoHeight = true;
+    jQuery(this).text('turn off');
+    api.adjustHeight(true, api.getHeight());
+  }
+  e.preventDefault();
+});
+jQuery('.entrance button').on('click', function() {
+  jQuery('.entrance button').removeClass('pure-button-secondary');
+  var api = jQuery.data( jQuery('#slider-6')[0], 'liquidSlider');
+  jQuery(this).addClass('pure-button-secondary');
+  if (api.options.animateIn !== api.options.animateOut)
+    jQuery(api.panelClass).removeClass(api.options.animateIn);
+  api.options.animateIn = jQuery(this).text();
+});
+jQuery('.exit button').on('click', function() {
+  jQuery('.exit button').removeClass('pure-button-secondary');
+  var api = jQuery.data( jQuery('#slider-6')[0], 'liquidSlider');
+  jQuery(this).addClass('pure-button-secondary');
+  if (api.options.animateIn !== api.options.animateOut)
+    jQuery(api.panelClass).removeClass(api.options.animateOut);
+  api.options.animateOut = jQuery(this).text();
+});
+
+</script>
+<div class="design-view-news-tabs"></div>
+</body>

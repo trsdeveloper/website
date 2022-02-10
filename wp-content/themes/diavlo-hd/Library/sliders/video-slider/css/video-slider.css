@@ -1,0 +1,43 @@
+﻿.slidercontainer {
+	margin: 30px auto;
+	max-width: 882px;";
+	position: relative;
+	z-index: 999;
+}
+.amazingslider-1 {
+	display: block;
+	position: relative;
+	margin: 16px auto 32px;
+}
+.amazingslider-slides {
+	display: none;
+}
+.amazingslider-thumbnails {
+	display: none;
+}
+.amazingslider-nav-container-0 {
+	margin-bottom: 60px!important;
+	margin-top: 0px!important;
+	position: relative;
+	z-index: 999;
+}
+/* Media Queries */
+@media screen and (max-width: 960px) {
+.container.video-slider-bg {
+	margin: 0px;
+	padding: 0px;
+}
+.amazingslider-nav-0 {
+	visibility: hidden;
+	display: none;
+}
+.slidercontainer {
+	margin: 0px auto;
+	max-width: 100%;"
+}
+.amazingslider-1 {
+	display: block;
+	position: relative;
+	margin: 0px auto 0px;
+}
+}

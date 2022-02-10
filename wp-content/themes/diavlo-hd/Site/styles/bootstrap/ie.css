@@ -1,0 +1,54 @@
+﻿/* hide contact panel tab*/
+.contact-panel-wrapper {
+	visibility: hidden;
+	display: none;
+}
+/* hide parallax slider arrows */
+.da-arrows span {
+	visibility: hidden;
+}
+.article-carousel.carousel-control.right {
+	visibility: hidden;
+}
+.article-carousel.carousel-control.left {
+	visibility: hidden;
+}
+#isotope-buttons {
+	visibility: hidden;
+	display: none;
+}
+.info-box-carousel-bg {
+	border-style: none;
+	border-color: inherit;
+	border-width: medium;
+	border-image: url('') none;
+	padding: 0;
+	text-align: center;
+}
+.soundcloud-wrapper {
+	display: none;
+	visibility: hidden;
+}
+.panel-heading h4.panel-title a, panel-title {
+	color: #000000;
+}
+/* fullscreen slider */
+.sl-slide-title {
+	top: 20%;
+	padding-top: 25px;
+}
+/* sub text */
+.fs-wrapper .sl-slider cite {
+	top: 32%;
+}
+/* description */
+.sl-description {
+	top: 35%;
+}
+/* Custom navigation arrows */
+.nav-arrows span {
+	top: 20%;
+}
+.section1 .section-inner {
+	padding: 100px 0;
+}

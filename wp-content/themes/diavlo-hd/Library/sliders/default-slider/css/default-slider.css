@@ -1,0 +1,39 @@
+﻿html body div.container .slidercontainer {
+	margin: 30px auto 50px;
+	width: 900px;
+	z-index: 999;
+	position: relative;
+}
+.amazingslider-1 {
+	display: block;
+	position: relative;
+	margin: 0px auto 0px;
+}
+.amazingslider-slides {
+	display: none;
+}
+.amazingslider-thumbnails {
+	display: none;
+}
+div.amazingslider-img-0 img {
+	width: 100%;
+}
+/* phone */
+@media screen and (min-width: 0px) and (max-width: 740px) {
+html body div.container .slidercontainer {
+	margin: 0px auto 0px;
+	max-width: 100%;
+	
+}
+.amazingslider-text-wrapper-0{
+	display:none!important;
+}
+
+}
+/* tablet portrait */
+@media screen and (min-width: 741px) and (max-width: 940px) {
+html body div.container .slidercontainer {
+	margin: 40px auto 40px;
+	max-width: 100%;
+}
+}

@@ -1,0 +1,54 @@
+
+	
+	#adminmenushadow, #adminmenuback {
+    background-image: url("../../images/menu-shadow.png");
+    background-position: right top;
+    background-repeat: repeat-y;
+}
+#adminmenuback, #adminmenuwrap {
+    background-color: #ECECEC;
+    border-color: #CCCCCC;
+}
+#adminmenuback, #adminmenuwrap {
+    border-style: solid;
+    border-width: 0 1px 0 0;
+}
+#adminmenuback {
+    z-index: 0;
+}
+
+
+
+/*
+.branch-3-8 #wpcontent,
+.branch-3-9 #wpcontent,
+.branch-4-0 #wpcontent,
+.branch-4 #wpcontent,
+.branch-4-1 #wpcontent,
+.branch-4-1 #wpcontent {
+		margin-left: 140px;
+
+}
+
+*/
+}
+@media all and (max-width: 900px) {
+.auto-fold #wpcontent {
+	margin-left: 33px;
+}
+	
+}
+
+.branch-3-8 #adminmenuback, .branch-3-8 #adminmenuwrap,
+.branch-3-9 #adminmenuback, .branch-3-9 #adminmenuwrap,
+.branch-4-0 #adminmenuback, .branch-4-0 #adminmenuwrap,
+.branch-4 #adminmenuback, .branch-4 #adminmenuwrap,
+.branch-4-1 #adminmenuback, .branch-4-1 #adminmenuwrap {
+  background-color: #222222;
+}
+
+html { background-color: #ffffff; }
+
+#adminmenuwrap { min-height: 1280px; box-sizing: border-box; }
+#adminmenu { min-height: 1280px;   box-sizing: border-box;}
+

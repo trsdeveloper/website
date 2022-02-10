@@ -1,0 +1,346 @@
+﻿/*tweet*/
+.form-2 h1 .log-in {
+	color: #222222;
+	padding-right: 2px;
+}
+/*message*/
+.form-2 h1 .sign-up {
+	color: #222222;
+	padding-left: 2px;
+}
+/*call*/
+.form-2 h1 .contact-call {
+	color: #222222;
+	padding-left: 2px;
+}
+
+div.contact-google iframe {
+	border: 0;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 305px;
+}
+div.contact-google iframe[seamless] {
+	background-color: transparent;
+	border: 0px none transparent;
+	padding: 0px;
+	overflow: hidden;
+}
+/* TWEET | MESSAGE or CALL:250.744.4357 font styles*/
+.form-2 h1 .log-in, .form-2 h1 .sign-up {
+	display: inline-block;
+	text-transform: uppercase;
+}
+div.contact-google iframe[seamless] {
+	background-color: transparent;
+	border: 0px none transparent;
+	padding: 0px;
+	overflow: hidden;
+}
+/* contact-panel open-contact-close-tab/button */
+.open-contact-close-tab {
+	/*background: url(../images/tab_b.png) repeat-x 0 0;*/
+  	border-top: 0px solid #ccc;
+	height: 1px;
+	position: relative;
+	top: 0;
+	z-index: 999;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	transition: all 0.5s ease;
+}
+.open-contact-close-tab ul.login {
+	display: block;
+	position: relative;
+	float: right;
+	clear: right;
+	height: 5px;
+	width: auto;
+	font-weight: bold;
+	margin: 0;
+	right: 100px;
+	color: #ff0000;
+	font-size: 80%;
+	text-align: center;
+	width: 0;
+	height: 0;
+}
+.open-contact-close-tab ul.login li {
+	padding: 0 6px;
+	display: block;
+}
+.open-contact-close-tab ul.login li a {
+	color: #efefef;
+	outline: none;
+}
+.open-contact-close-tab ul.login li a:hover {
+	color: #000000;
+}
+.open-contact-close-tab .sep {
+	color: #414141;
+}
+
+.open-contact-close-tab a.open, .open-contact-close-tab a.contact-close {
+	height: 30px;
+	line-height: 30px !important;
+	cursor: pointer;
+	display: block;
+	width: 60px;
+	position: relative;
+	top: 0px;
+	right: -35px;
+	background: url('../../../../Site/graphics/contact-panel-open.png') center top no-repeat;
+	transition: all 1.5s ease;
+}
+
+.open-contact-close-tab a.contact-close {
+	height: 30px;
+	line-height: 30px !important;
+	cursor: pointer;
+	display: block;
+	width: 60px;
+	position: relative;
+	top: -30px;
+	right: -35px;
+	background: url('../../../../Site/graphics/contact-panel-open.png') center bottom no-repeat;
+	transition: all 1.5s ease;
+}
+
+/*
+.open-contact-close-tab a.open, .open-contact-close-tab a.contact-close {
+	height: 25px;
+	line-height: 10px !important;
+	cursor: pointer;
+	display: block;
+	width: 50px;
+	position: relative;
+	top: -2px;
+	left: 0px;
+	background: url('../../../../Site/graphics/contact-panel-open.png') center top no-repeat;
+}
+
+.open-contact-close-tab a.contact-close {
+	height: 25px;
+	line-height: 29px !important;
+	cursor: pointer;
+	display: block;
+	width: 50px;
+	position: relative;
+	top: -25px;
+	left: 0px;
+	background: url('../../../../Site/graphics/contact-panel-open.png') center bottom no-repeat;
+}
+*/
+/* sliding contact-panel */
+#topcontact-panel {
+	position: absolute; /*contact-panel will overlap  content-contact */ /*position: relative;*/ /*contact-panel will "push" the content-contact down */;
+	top: 0;
+	width: 100%;
+	z-index: 10006;
+	margin-left: auto;
+	margin-right: auto;
+}
+#contact-panel {
+	width: 100%;
+	height: auto;
+	color: #999999;
+	background: #293037;
+	overflow: hidden;
+	position: relative;
+	z-index: 3;
+	display: none;
+	/*box-shadow: inset 0px 0px 100px 0px rgba(0,0,0,1.0);*/
+	border-bottom:1px #ffffff solid;
+}
+#contact-panel .content-contact {
+	margin: 0 auto;
+	padding-top: 15px;
+	text-align: left;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.contact-google {
+	/* Size and position */
+    width: auto;
+	height: 365px;
+	margin: 20px auto 0px;
+	padding: 15px;
+	position: relative; /* Styles */;
+	background: #ffffff url('../../../../Site/graphics/body-bg.jpg');
+	border-radius: 4px;
+	color: #7e7975;
+	border:2px dotted rgba(0,0,0,0.5) ;
+	/*box-shadow: 0 2px 2px rgba(0,0,0,0.0), 0 1px 5px rgba(0,0,0,0.0), 0 0 0 12px rgba(255,255,255,1.0);*/
+}
+.form-2 {
+	/* Size and position */
+    width: 100%;
+	height: 365px;
+	margin: 20px auto 0px;
+	padding: 15px;
+	position: relative; /* Styles */;
+	background: #ffffff url('../../../../Site/graphics/body-bg.jpg');
+	border-radius: 4px;
+	color: #523E63;
+	border:2px dotted rgba(0,0,0,0.5) ;
+	/*box-shadow: 0 2px 2px rgba(0,0,0,0.2), 0 1px 5px rgba(0,0,0,0.2), 0 0 0 12px rgba(255,255,255,1.0);*/
+}
+.form-2 h1 {
+	font-size: 22px;
+	font-weight: normal;
+	color: #523E63;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #523E63;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.8);
+	text-align: center;
+	margin-top: 0px;
+}
+p.clearfix {
+	margin: 0px;
+}
+.form-2 .float {
+	width: 50%;
+	float: left;
+	padding-top: 15px;
+	border-top: 1px solid rgba(255,255,255,1);
+}
+.form-2 .float2 {
+	width: 100%;
+	float: left;
+	padding-top: 15px;
+	border-top: 1px solid rgba(255,255,255,1);
+}
+.form-2 .float:first-of-type {
+	padding-right: 5px;
+}
+.form-2 .float:last-of-type {
+	padding-left: 5px;
+}
+.form-2 label {
+	display: block;
+	padding: 0 0 5px 2px;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 11px;
+}
+.form-2 label i {
+	margin-right: 5px; /* Gap between icon and text */;
+	display: inline-block;
+	width: 10px;
+}
+.form-2 input[type=text], .form-2 input[type=password], .form-2 input[type=email], .form-2 textarea {
+    color: #523E63;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	display: block;
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #523E63;
+	border-radius: 2px;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.form-2 input[type=text]:hover, .form-2 input[type=password]:hover {
+	border-color: #CCC;
+}
+.form-2 label:hover ~ input {
+    border-color: #CCC;
+}
+.form-2 input[type=text]:focus, .form-2 input[type=password]:focus {
+	border-color: #BBB;
+	outline: none; /* Remove Chrome's outline */
+}
+.form-2 input[type=submit], .form-2 .log-twitter {
+	/* Size and position */
+    width: 49%;
+	height: 38px;
+	float: left;
+	position: relative; /* Styles */;
+	box-shadow: inset 0 1px rgba(255,255,255,0.3);
+	border-radius: 3px;
+	cursor: pointer; /* Font styles */;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 38px; /* Same as height */;
+	text-align: center;
+	font-weight: bold;
+}
+.form-2 input[type=submit] {
+	margin-left: 1%;
+	background: #999999;
+/* Fallback */background: -moz-linear-gradient(#999999, #444444);
+	background: -ms-linear-gradient(#999999, #444444);
+	background: -o-linear-gradient(#999999, #444444);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#999999), to(#444444));
+	background: -webkit-linear-gradient(#999999, #444444);
+	background: linear-gradient(#999999, #444444);
+	border: 1px solid #333;
+	color: #efefef;
+	text-decoration: none;
+}
+.form-2 .log-twitter {
+	margin-right: 1%;
+	background: #999999;
+/* Fallback */background: -moz-linear-gradient(#999999, #444444);
+	background: -ms-linear-gradient(#999999, #444444);
+	background: -o-linear-gradient(#999999, #444444);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#999999), to(#444444));
+	background: -webkit-linear-gradient(#999999, #444444);
+	background: linear-gradient(#999999, #444444);
+	border: 1px solid #333;
+	color: #efefef;
+	text-decoration: none;
+}
+.form-2 input[type=submit]:hover, .form-2 .log-twitter:hover {
+	box-shadow: inset 0 1px rgba(255,255,255,0.3), inset 0 20px 40px rgba(255,255,255,0.15);
+	color: #efefef;
+}
+.form-2 input[type=submit]:active, .form-2 .log-twitter:active {
+	top: 1px;
+}
+/* Fallback fro broswers that don't support box shadows */
+.no-boxshadow .form-2 input[type=submit]:hover {
+	background: #ffb347;
+}
+.no-boxshadow .form-2 .log-twitter:hover {
+	background: #2a8ac4;
+}
+.form-2 p:last-of-type {
+	clear: both;
+}
+.form-2 .opt {
+	text-align: right;
+	margin-right: 3px;
+}
+.form-2 label[for=showPassword] {
+	display: inline-block;
+	margin-bottom: 10px;
+	font-size: 11px;
+	font-weight: 400;
+	text-transform: capitalize;
+}
+.form-2 input[type=checkbox] {
+	vertical-align: middle;
+	margin: -1px 5px 0 1px;
+}
+/* tablet portrait */
+@media screen and (min-width: 100px) and (max-width: 940px) {
+.log-in, .sign-up {
+	visibility: hidden !important;
+	display: none!important;
+}
+}

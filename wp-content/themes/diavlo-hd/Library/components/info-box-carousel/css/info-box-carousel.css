@@ -1,0 +1,129 @@
+﻿.info-box-carousel-bg {
+max-height:100px;
+transition: all 1s ease;
+position:absolute;
+top:0;
+}
+.info-box-carousel-bg:hover {
+transition: all 1s ease;
+
+max-height:600px;
+}
+
+
+
+
+/* heading */
+.info-box-carousel-bg h3 {
+	color: #8A8A8A;
+	font-size: 24px;
+	font-family: 'Oswald', serif;
+	font-weight: normal;
+	letter-spacing: normal;
+	margin: 15px 0;
+	padding: 5px 10px 0px 10px;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.0);
+	text-align: center;
+}
+/* paragraph */
+#articleCarousel p {
+	color: #ffffff;
+	font-size: 12px;
+	font-family: 'Open Sans', serif;
+	padding: 0px 10px 5px 10px;
+	text-align: center;
+}
+.info-box-carousel-bg a {
+	outline: none;
+}
+/* button styles*/
+div.info-box-carousel-bg a.btn {
+	color: #00B0D2;
+	font-size: 16px;
+	padding: 0px 30px;
+}
+/* Removes the default 20px margin and creates some padding space for the indicators and controls */
+.carousel {
+	margin-bottom: 0px;
+	padding: 30px 40px 70px 40px;
+}
+/* Reposition the controls slightly */
+carousel-control {
+	left: -12px;
+}
+.carousel-control {
+	background-color: rgba(0, 0, 0, 0);
+	border: 0 none;
+	color: transparent;
+	font-size: 0px;
+	height: 200px;
+	width: 16px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+}
+.article-carousel.carousel-control.right {
+	right: 0px;
+	top: 20%;
+	width: 26px;
+	background: url('../images/info-box-carousel-right.png') center top no-repeat;
+}
+.article-carousel.carousel-control.left {
+	left: 0px;
+	top: 20%;
+	width: 26px;
+	background: url('../images/info-box-carousel-left.png') center top no-repeat;
+}
+/* Changes the position of the indicators */
+.carousel-indicators {
+	right: 50%;
+	bottom: 0px;
+	margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.carousel-indicators li {
+	background: #707070;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.carousel-indicators .active {
+	background: #333333;
+}
+/* info-box background */
+.info-box-carousel-bg {
+	padding: 0px;
+	border-style: solid;
+	border-width: 1px 1px 0px;
+	-moz-border-image: url('../images/info-box-carousel-border-image.png') 1 1 0 1;
+	-webkit-border-image: url('../images/info-box-carousel-border-image.png') 1 1 0 1;
+	-o-border-image: url('../images/info-box-carousel-border-image.png') 1 1 0 1;
+	border-image: url('../images/info-box-carousel-border-image.png') 1 1 0 1;
+	-webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0);
+box-shadow: 0 0 20px 0 rgba(0,0,0,0);
+text-align:center;
+}
+.info-box-carousel-bg a.thumbnail {
+	border: 0;
+	border-radius: 0px;
+	box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0.0);
+	line-height: normal;
+	padding: 10px 10px;
+	transition: all 0.2s ease-in-out 0s;
+}
+/* button styles*/
+div.info-box-carousel-bg a.btn {
+	color: #333333;
+	background: #F7F8F9;
+	border-radius: 3px;
+	border: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.0) inset;
+}
+.info-box-carousel-bg a.thumbnail img.img-circle {
+	padding: 5px;
+	border: 3px solid #ffffff;
+	transition: all 1s ease;
+	box-sizing: border-box;
+}
+.info-box-carousel-bg a.thumbnail img.img-circle:hover {
+	padding: 5px;
+	box-sizing: border-box;
+	border: 3px solid #000000;
+}

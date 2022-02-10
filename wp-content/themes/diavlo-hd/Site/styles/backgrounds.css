@@ -1,0 +1,277 @@
+/*********************** SHOWCASE  / START ************************************/
+.top {
+	background: #293037 url('../graphics/dark-bg.jpg') center bottom repeat-x;
+	height: 30px;
+	width: 100%;
+	box-sizing: border-box;
+	z-index: 1;
+	position: relative;
+}
+.header {
+	position: relative;
+}
+.header.fullscreen {
+	height: 800px;
+	height: 100vh;
+	padding: 0px 0 0 0;
+}
+/*********************** SHOWCASE  / START ************************************/
+.showcase {
+	margin: 0;
+	padding: 25px 0;
+	border-top: 1px #ffffff solid;
+	border-bottom: 1px #ffffff solid;
+	background: rgba(238, 238, 238, 0.5);
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2), inset 0px 0px 25px rgba(0,0,0,0.25);
+}
+.showcase .row.inner h1 {
+	text-align: center;
+}
+.showcase .row.inner h2 {
+	text-align: center;
+}
+.showcase h1:before {
+	content: url('../graphics/h1-bg.png');
+}
+.showcase h1:after {
+	content: url('../graphics/h1-bg.png');
+}
+/*********************** SECTION1  / START ************************************/
+.section1 {
+	background: url('../graphics/section1-bg.jpg') center top fixed;
+}
+.section1 .section-inner {
+	background: url('../graphics/section1-top-left.png') left top no-repeat, url('../graphics/section1-bottom-right.png') right bottom no-repeat;
+	padding: 50px 0;
+}
+.section1 .section-list {
+	position: relative;
+	padding-left: 60px;
+}
+.section1 .section-list p {
+	font-size: 14px;
+}
+.section-list i.fa {
+	position: absolute;
+	left: 0;
+	top: 0px;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background: #FF9900;
+	color: #ffffff;
+	padding: 8px 0 0 0px;
+	font-size: 20px;
+}
+@media only screen 
+and (min-width : 1024px) {
+.section1 h1:before {
+	content: url('../graphics/h1-bg.png');
+}
+.section1 h1:after {
+	content: url('../graphics/h1-bg.png');
+}
+}
+@media only screen 
+and (max-width : 990px) {
+.section1 .inner{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+}
+/*********************** SECTION2  / START ************************************/
+.section2 {
+	margin: 0;
+	padding: 50px 0;
+	border-top: 1px #ffffff solid;
+	border-bottom: 1px #ffffff solid;
+	background: rgba(238, 238, 238, 0.5);
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2), inset 0px 0px 25px rgba(0,0,0,0.25);
+}
+.section2 .section-inner.ourteam article {
+	text-align: justify;
+}
+@media only screen 
+and (min-width : 1224px) {
+.section2 .section-inner.ourteam {
+	background: url('../images/our-team-side.png') no-repeat left center;
+}
+.section2 p {
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+}
+}
+@media only screen 
+and (max-width : 990px) {
+.section2 .inner {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+}
+/*********************** SECTION3  / START ************************************/
+.section3 {
+	padding: 50px 0;
+}
+@media only screen 
+and (min-width : 1024px) {
+.section3 h1:before {
+	content: url('../graphics/h1-bg.png');
+}
+.section3 h1:after {
+	content: url('../graphics/h1-bg.png');
+}
+}
+@media only screen 
+and (max-width : 990px) {
+.section3 .inner {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+}
+/*********************** PARALLAX1  / START ************************************/
+.parallax1 {
+	background: url('../themed-images/parallax-backgrounds/images/parallax1-bg.jpg') no-repeat fixed 50% 0;
+	margin: 0 auto;
+	border-top: 5px rgba(255,255,255,0.7) solid;
+	border-bottom: 5px rgba(255,255,255,0.7) solid;
+}
+.parallax1 .section-inner {
+	padding: 100px 0;
+	background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../graphics/dots.png');
+}
+.parallax1 h1 {
+	font-size: 75px;
+	color: #ffffff;
+	color: rgba(255,255,255,0.5);
+}
+.parallax1 {
+	color: #ffffff;
+	color: rgba(255,255,255,0.7);
+}
+@media only screen 
+and (max-width : 990px) {
+.parallax1 .inner {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+}
+/*********************** PARALLAX2  / START ************************************/
+.parallax2 {
+	background: url('../themed-images/parallax-backgrounds/images/parallax2.jpg') no-repeat fixed 50% 0;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+@media only screen 
+and (max-width : 990px) {
+.parallax2 .inner {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+}
+/*********************** PARALLAX3  / START ************************************/
+.parallax3 {
+	background: url('../themed-images/parallax-backgrounds/images/parallax3.jpg') no-repeat fixed 50% 0;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 100px 0px;
+}
+/* style over rides */
+.parallax3 h2 {
+	color: #000000;
+}
+.parallax3 {
+	color: #222222;
+}
+@media only screen 
+and (max-width : 990px) {
+.parallax3 .inner {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+}
+/*********************** FOOTER  / START **************************************/
+.footer {
+	background: #293037 url('../graphics/dark-bg.jpg') center top fixed;
+	padding: 40px 0 30px 0;
+	border-top: 10px #000000 solid;
+	border-bottom: 10px #000000 solid;
+}
+.footer-top {
+	color: #ffffff;
+	font-size: 33px;
+	font-family: 'buxton_sketchregular', cursive;
+	font-weight: normal;
+	background: url('../graphics/footer-top-right.png') center center no-repeat;
+	width: 566px;
+	height: 74px;
+	position: absolute;
+	top: -81px;
+	right: 0px;
+	text-align: right;
+	padding: 10px 45px 0 0;
+}
+.footer .section-inner {
+	box-sizing: border-box;
+}
+.footer .wrapper {
+	box-sizing: border-box;
+}
+.footer .wrapper .container {
+	box-sizing: border-box;
+}
+.footer .inner {
+	box-sizing: border-box;
+	position: relative;
+}
+.footer ul, .footer ol, .footer ul ul, .footer ol ul, .footer ul ol, .footer ol ol {
+	list-style-type: none;
+	padding: 2px 0px;
+}
+/* style over rides */
+.footer {
+	color: #D2D2D2;
+	font-size: 13px;
+}
+/* LINKS */
+.footer a {
+	color: #ffffff;
+}
+.footer a:hover, a:focus {
+	color: #FF9900;
+}
+.footer h3, .h3 {
+	color: #ffffff;
+}
+@media only screen 
+and (max-width : 990px) {
+.footer .inner {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+}
+/*********************** COPYRIGHT  / START ***********************************/
+.copyright {
+}
+.copyright .inner {
+	position: relative;
+}
+@media only screen 
+and (max-width : 990px) {
+.copyright .inner {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+}
+
+/*********************** SECTION DIVIDER  / START *****************************/
+.section-divider {
+	width: 100%;
+	height: 10px;
+	background: #293037;
+}
+.section-divider-thin {
+	width: 100%;
+	height: 1px;
+	background: #293037;
+}

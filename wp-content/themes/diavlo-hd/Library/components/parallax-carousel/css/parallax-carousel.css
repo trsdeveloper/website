@@ -1,0 +1,90 @@
+#parallax-carousel {
+	background: url('../images/home.jpg') fixed 50% 0;
+	height: auto;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	padding: 50px 0;
+}
+.media-object {
+	width: 64px;
+	height: 64px;
+	padding-bottom: 30px;
+}
+/* -----------------------------------------
+:: carousel
+----------------------------------------- */
+.carousel {
+	z-index: 1;
+}
+.carousel-control.right {
+	background-image: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.0) 100%);
+}
+.carousel-control.left {
+	background-image: linear-gradient(to left, transparent 0%, rgba(0, 0, 0, 0.0) 100%);
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+}
+.carousel-control {
+	height: 80px;
+	margin-top: 45px;
+	font-size: 120px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+	background-color: transparent;
+	border: 0;
+	color: #2F3942;
+}
+.carousel-caption {
+	color: #ddd4bc;
+	text-shadow: 0 1px 2px rgba(255, 255, 255, 0.6);
+}
+.carousel-indicators .active {
+	background-color: #ccc;
+}
+.carousel-indicators li {
+	background-color: #2F3942;
+}
+.carousel-indicators {
+	bottom: 0px;
+}
+.carousel .item {
+	height: 400px;
+}
+
+
+.tri-down {
+
+    /* Styling block element, not required */
+    position: relative;
+    border-bottom: 5px solid #999;
+  }
+
+  /* Required for Down Triangle */
+  .tri-down:before, .tri-down:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom: 0;
+  }
+
+  /* Stroke */
+  .tri-down:before {
+    bottom: -16px;
+    left: 21px;
+
+    /* If 1px darken stroke slightly */
+    border-top-color: #777;
+    border-width: 16px;
+  }
+
+  /* Fill */
+  .tri-down:after {
+    bottom: -15px;
+    left: 22px;
+    border-top-color: #f3f3f3;
+    border-width: 15px;
+  }

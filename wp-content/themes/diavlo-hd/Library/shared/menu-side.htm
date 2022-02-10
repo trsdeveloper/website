@@ -1,0 +1,101 @@
+<body>
+<div class="menu-side">
+<h2>Side Menu</h2>
+
+<ul class="menuside">
+
+
+
+<!-- button 1 -->
+	<li><a href="#" class="downarrow">Menu with Sub </a>
+
+	<ul>
+		<li><a href="#">Sub Menu </a></li>
+		<li><a href="#">Sub Menu </a></li>
+		<li><a href="#">Sub Menu </a></li>
+	</ul>
+	</li>
+<!-- button 1 -->
+
+
+
+<!-- button 2 -->
+	<li><a href="#" class="downarrow">Menu with Sub </a>
+	<ul>
+		<li><a href="#">Sub Menu </a></li>
+		<li><a href="#">Sub Menu </a></li>
+		<li><a href="#">Sub Menu </a></li>
+	</ul>
+	</li>
+<!-- button 2 -->
+
+
+
+<!-- button 3 -->
+	<li><a href="#" class="downarrow">Menu with Sub </a>
+	<ul>
+		<li><a href="#">Sub Menu </a></li>
+		<li><a href="#">Sub Menu </a></li>
+		<li><a href="#">Sub Menu </a></li>
+	</ul>
+	</li>
+<!-- button 3 -->
+
+
+
+<!-- button 4 -->
+	<li><a href="#" class="downarrow">Menu with Sub </a>
+	<ul>
+		<li><a href="#">Sub Menu </a></li>
+		<li><a href="#">Sub Menu </a></li>
+		<li><a href="#">Sub Menu </a></li>
+	</ul>
+	</li>
+<!-- button 4 -->
+
+
+
+<!-- button 5 -->
+	<li><a href="#" class="downarrow">Menu with Sub </a>
+	<ul>
+		<li><a href="#">Sub Menu </a></li>
+		<li><a href="#">Sub Menu </a></li>
+		<li><a href="#">Sub Menu </a></li>
+	</ul>
+	</li>
+<!-- button 5 -->
+
+
+
+
+</ul>
+<script type="text/javascript">
+	jQuery(function() {
+
+	    var menuside_ul = jQuery('.menuside > li > ul'),
+	           menuside_a  = jQuery('.menuside > li > a');
+
+	    menuside_ul.hide();
+
+	    menuside_a.click(function(e) {
+	    	if (jQuery(this).attr("href") == "#") {
+
+		        e.preventDefault();
+		        if(!jQuery(this).hasClass('active')) {
+		            menuside_a.removeClass('active');
+		            menuside_ul.filter(':visible').slideUp('normal');
+		            jQuery(this).addClass('active').next().stop(true,true).slideDown('normal');
+		        } else {
+		            jQuery(this).removeClass('active');
+		            jQuery(this).next().stop(true,true).slideUp('normal');
+		        }
+	        }
+	    });
+
+	});
+</script>
+</div>
+
+<div class="design-view-menu-side"></div>
+
+</body>

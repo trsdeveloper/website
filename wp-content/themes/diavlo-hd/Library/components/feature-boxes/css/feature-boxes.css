@@ -1,0 +1,196 @@
+﻿/* positioning */
+.feature-boxes {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	background: url('../../../../Site/graphics/feature-box-bg.png') center 0px repeat-x;
+	border-top: 1px #ffffff solid;
+}
+/* small title*/
+.fb-title1 {
+	cursor: pointer;
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 200;
+	margin-top: 20px;
+}
+/* large title */
+.fb-title2 {
+	cursor: pointer;
+	margin: 0 0 20px;
+	color: #293037;
+	font-size: 21px;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: normal;
+	line-height: 1em;
+	margin: 10px 0px 10px 0px;
+	transition: all .5s ease-in-out;
+}
+.fb-feature-box:hover .fb-title2 {
+	color: #007ab7;
+}
+/* content container */
+.fb-content {
+	cursor: pointer;
+	margin: 0;
+	height: 0;
+	display: block;
+	padding: 0 20px;
+	overflow: hidden;
+	position: relative;
+	transition: all .5s ease-in-out;
+}
+.fb-content p {
+	color: #293037;
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+	height: 0;
+	overflow: hidden;
+	margin: -150px 0 15px;
+	opacity: 0;
+	transition: all .5s ease-in-out;
+}
+.fb-feature-box:hover .fb-content p {
+	margin: 0 0 15px;
+	height: auto;
+	opacity: 1;
+}
+.fb-feature-box:hover .fb-content {
+	margin: 0;
+	height: 130px;
+	padding: 0 20px 35px;
+}
+.fb-feature-box .fb-button {
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	border-radius: 5px;
+	padding: 1px 20px;
+	background: #ffffff;
+	background: rgba(255,255,255,0.5);
+	opacity:0;
+}
+.fb-feature-box:hover .fb-button{
+	opacity:1;
+}
+.fb-button:hover{
+	color: #ffffff;
+	background: #007ab7;
+	text-decoration: none;
+}
+
+/* image */
+.fb-image.img-circle {
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
+	border: 5px #ffffff solid;
+	border: 5px rgba(255,255,255,1.0) solid;
+	margin-top: -81px;
+	margin-left: auto;
+	margin-right: auto;
+	transition: all .5s ease-in-out;
+	box-sizing: border-box;
+	overflow: hidden;
+	box-shadow: 0px 0px 25px rgba(0,0,0,0.5);
+}
+.fb-image.img-circle img {
+	width: 200px;
+	height: 200px;
+	transition: all 0.5s ease-in-out;
+}
+.fb-feature-box:hover .fb-image.img-circle {
+	width: 160px;
+	height: 160px;
+	margin-top: -75px;
+	border-radius: 80px;
+	border: 10px #ffffff solid;
+	border: 10px rgba(255,255,255,0.5) solid;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+.fb-feature-box:hover .fb-image.img-circle img {
+	width: 150px;
+	height: 150px;
+}
+/* fb background */
+.fb-feature-box {
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+	display: block;
+	position: absolute;
+	text-align: center;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-o-border-radius: 0px;
+	border-radius: 0px;
+	transition: all 0.3s ease-in-out;
+	background-color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.fb-feature-box:hover {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+.feature-box-number {
+	color: #ffffff;
+	font-size: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: 600;
+	margin: 0 auto 20px;
+	letter-spacing: 1px;
+}
+/* inner wrapper */
+.fb-inner-wrapper {
+	padding: 0;
+	width: 100%;
+	height: 155px;
+	text-align: center;
+	position: relative;
+	margin: 0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+/* outer wrapper */
+.fb-outer-wrapper {
+	padding: 0;
+	z-index: 1;
+	width: 100%;
+	margin: 2px 0 0;
+	position: relative;
+}
+@media (max-width: 992px) {
+.fb-feature-box .fb-image.img-circle {
+	width: 100%;
+	width: 100%;
+	margin-top: -75px;
+	border-radius: 50%;
+	border: 5px #ffffff solid;
+	border: 5px rgba(255,255,255,0.5) solid;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.0);
+}
+
+.fb-feature-box:hover .fb-image.img-circle {
+	width: 100%;
+	width: 100%;
+	margin-top: -75px;
+	border-radius: 50%;
+	border: 5px #ffffff solid;
+	border: 5px rgba(255,255,255,0.5) solid;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.0);
+}
+}

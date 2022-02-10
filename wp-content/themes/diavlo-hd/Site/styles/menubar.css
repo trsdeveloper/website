@@ -1,0 +1,326 @@
+﻿/* menubar POSITION */
+.menu-top {
+	float: right;
+}
+/* menubar BACKGROUND */
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+/* menubar HEIGHT - BOTTOM MARGIN */
+.navbar {
+	border: 0px solid rgba(0, 0, 0, 0);
+	margin-bottom: 0px;
+	position: relative;
+}
+/* main button BACKGROUND */
+.navbar-nav > li > a {
+	background-color: transparent;
+	-webkit-box-shadow: inset 0px 0px 25px 0px rgba(0,0,0,0.0);
+	box-shadow: inset 0px 0px 25px 0px rgba(0,0,0,0.0);
+}
+ul#menu.menu li:first-child {
+	border-left: 0px #000000 solid;
+}
+/* adjust FONT AWESOME line height */
+ul#menu.menu li a i.fa {
+	line-height: .9;
+}
+/* main button FONT STYLE */
+.navbar-default .navbar-nav > li > a {
+	color: #293037;
+	font-size: 14px;
+	font-family: 'bebasregular', sans-serif;
+	box-sizing: border-box;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-left: 0px;
+	padding-top: 42px;
+	padding-bottom: 35px;
+	-webkit-transition: all .5s ease;
+	transition: all .5s ease;
+	background: url('../graphics/menu-top.png') center -55px repeat-x, url('../graphics/menu-bottom.png') center 110px repeat-x;
+}
+/* main button HOVER*/
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #007AB7;
+	background: url('../graphics/menu-top.png') center -20px repeat-x, url('../graphics/menu-bottom.png') center 68px repeat-x;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #007AB7;
+}
+/* sub button POSITION */
+.navbar-nav > li > .dropdown-menu {
+	margin-top: 3px;
+	box-sizing: border-box;
+}
+/* sub button FONT STYLE */
+.dropdown-menu > li > a {
+	color: #777777;
+	font-size: 12px;
+	font-family: 'Open Sans',sans-serif;
+	display: block;
+	line-height: 1.4;
+	white-space: nowrap;
+	clear: both;
+	border-left: 5px solid #ffffff;
+	padding: 3px 20px 3px 20px;
+	-webkit-transition: all .5s ease;
+	transition: all .5s ease;
+}
+/* sub button HOVER */
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	text-decoration: none;
+	color: #000000;
+	background: #F2F3F4;
+	border-left: 5px solid #007AB7;
+	box-sizing: border-box;
+	padding: 3px 25px 3px 15px;
+}
+/* SUBMENU BACKGROUND */
+.dropdown-menu {
+	background-clip: padding-box;
+	background-color: #ffffff;
+	border-radius: 0px;
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
+	margin: 3px 0 0;
+	min-width: 180px;
+	padding: 5px 0;
+}
+ul#menu.menu li.dropdown ul.dropdown-menu li:first-child {
+	border: 0px;
+}
+/* do not remove, or menu top sub sub menus will not function */
+/* SUB FLYOUT BORDER STYLES */
+.dropdown-submenu > .dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: -6px;
+	margin-left: 0px;
+	border-radius: 0 6px 6px 0px;
+	padding: 8px 0px;
+}
+.dropdown-submenu:hover > .dropdown-menu {
+	display: block;
+}
+/* SUB FLYOUT ARROWS */
+.dropdown-submenu > a:after {
+	display: block;
+	content: " ";
+	float: right;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-style: solid;
+	border-width: 5px 0 5px 5px;
+	border-left-color: #000;
+	margin-top: 5px;
+	margin-right: -10px;
+}
+.dropdown-submenu:hover > a:after {
+	border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+	float: none;
+}
+.dropdown-submenu.pull-left > .dropdown-menu {
+	left: -100%;
+	margin-left: 10px;
+	border-radius: 6px 0 6px 6px;
+}
+.dropdown-submenu {
+	position: relative;
+}
+/* SUB H5 */
+.dropdown-menu h5 a {
+	text-decoration: none;
+	cursor: default;
+	padding-left: 20px;
+	color: #111111;
+	text-shadow: 0px 1px 1px rgba(220, 212, 189, 0.5);
+}
+/*********************** MENU SIDE / START **************************************/
+.menu-side {
+	margin: 0px;
+	padding: 0px;
+}
+ul.menuside li a {
+	text-decoration: none;
+}
+ul.menuside, ul.menuside ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.menuside {
+	width: auto;
+	height: auto;
+}
+.menuside ul li:last-child a {
+	border-bottom: 0px solid #33373d;
+}
+.menuside > li > a:hover, .menuside > li > a.active {
+	background: #1e5799;
+}
+.menuside > li > a.active {
+}
+.menuside > li > a:before {
+	content: '';
+	background-repeat: no-repeat;
+	font-size: 36px;
+	height: 1em;
+	width: 1em;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin: -.5em 0 0 0;
+}
+.menuside > li > ul li a:before {
+	content: '';
+	font-size: 8px;
+	color: #bcbcbf;
+	position: absolute;
+	width: 1em;
+	height: 1em;
+	top: 0;
+}
+ul.menuside li ul {
+	margin-left: 15px;
+}
+/* menu side hover styles*/
+ul.menuside li {
+	margin: 3px 0px 3px 0px;
+}
+.menuside > li > a {
+	color: #999999;
+	font-size: 16px;
+	font-family: 'roboto_condensedlight', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	letter-spacing: 0px;
+	line-height: 25px;
+	font-weight: 600;
+	padding: 5px 10px 5px 20px;
+	background: #293037;
+	-webkit-transition: color .2s ease-out, background .5s ease-in;
+	transition: color .2s ease-out, background .5s ease-in;
+	outline: 0;
+	margin-bottom: -2px;
+}
+.downarrow {
+	background-image: url('../graphics/menu-side-down-arrow.png')!important;
+	background-position: right 10px!important;
+	background-repeat: no-repeat!important;
+}
+.downarrow:hover {
+	background-image: url('../graphics/menu-side-down-arrow.png')!important;
+	background-position: right -130px!important;
+	background-repeat: no-repeat!important;
+}
+/* menu side hover styles*/
+.menuside > li > a:hover, .menuside > li > a.active {
+	color: #ffffff;
+	background: #000;
+	outline: none;
+}
+/* menu side button styles */
+.menuside > li > a {
+	width: 100%;
+	display: block;
+	position: relative;
+	border-radius: 4px;
+}
+/* menu side sub */
+.menuside ul li a {
+	background: transparent;
+	background: rgba(0,0,0,0.1);
+	border-radius: 4px;
+	width: 100%;
+	height: 2.75em;
+	line-height: 2.75em;
+	text-indent: 2.75em;
+	display: block;
+	position: relative;
+	font-family: 'roboto_condensedlight', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	color: #000000;
+	margin: 2px 0px 2px 0px;
+	outline: none;
+}
+/* menu side sub background hover */
+.menuside ul li a:hover {
+	background: rgba(0,0,0,0.5);
+	border-radius: 4px;;
+}
+/* menu side sub font hover */
+.menuside > li > ul li:hover a, .menuside > li > ul li:hover a span, .menuside > li > ul li:hover a:before {
+	color: #ffffff;
+}
+
+
+/*----------------------------------------------------------------------------*\
+    Headhesive Specific Styles
+/*----------------------------------------------------------------------------*/
+.sticky-menubar--clone {
+	position: fixed !important;
+	top: 0;
+	left: 0;
+	background: #ffffff!important;
+	border-bottom: 1px #ffffff solid;
+	height: 65px!important;
+	min-height: 65px!important;
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%);
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+	z-index:1;
+}
+.sticky-menubar--clone .website-name {
+	height: 65px;
+	padding: 10px 80px 0 75px;
+
+}
+.sticky-menubar--clone .tagline {
+	margin-top: 15px;
+}
+.sticky-menubar--clone .navbar-default .navbar-nav > li > a {
+	padding-bottom: 10px;
+	padding-top: 22px;
+}
+/* main button HOVER*/
+.sticky-menubar--clone .navbar-default .navbar-nav > li > a:hover{
+	color: #007AB7;
+	background: url('../graphics/menu-top.png') center -35px repeat-x, url('../graphics/menu-bottom.png') center 44px repeat-x;
+}
+.sticky-menubar--stick {
+	/* Translate back to 0%; */
+    -webkit-transform: translateY(0%);
+	-ms-transform: translateY(0%);
+	transform: translateY(0%);
+}
+.sticky-menubar--unstick {
+}
+/* Main elem */
+.sticky-menubar {
+	background: #ffffff;
+	background: rgba(255,255,255,0.5);
+	min-height: 100px;
+	width: 100%;
+	position: relative;
+}
+@media (max-width: 992px) {
+.sticky-menubar--clone {
+	visibility: hidden;
+	display: none;
+}
+}
+.navbar-collapse {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+

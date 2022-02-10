@@ -1,0 +1,92 @@
+﻿<body>
+
+<link rel="stylesheet" href="css/animated-button-scroller.css">
+
+
+<div class="abs-slider" id="animated-button-scroller">
+
+
+
+<!-- DO NOT EDIT ABOVE THIS LINE ================================================== -->
+
+
+
+    <div>
+		<h2 class="title"><i class="fa fa-envelope-o fa-4x"></i>Heading Text</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Sed volutpat ante id mauris laoreet vestibulum. Nam blandit felis non neque cursus aliquet. Morbi vel enim dignissim massa dignissim commodo vitae quis tellus. Nunc non mollis nulla. Sed consectetur elit id mi consectetur bibendum. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis. Aliquam sit amet purus lectus. Maecenas tempor ornare sollicitudin.</p>
+    </div>
+    <div>
+		<h2 class="title"><i class="fa fa-envelope-o fa-4x"></i>Heading Text</h2>
+      <p>Proin nec turpis eget dolor dictum lacinia. Nullam nunc magna, tincidunt eu porta in, faucibus sed magna. Suspendisse laoreet ornare ullamcorper. Nulla in tortor nibh. Pellentesque sed est vitae odio vestibulum aliquet in nec leo.</p>
+    </div>          
+    <div>
+		<h2 class="title"><i class="fa fa-envelope-o fa-4x"></i>Heading Text</h2>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+    </div>
+    <div>
+		<h2 class="title"><i class="fa fa-envelope-o fa-4x"></i>Heading Text</h2>
+      <p>Proin nec turpis eget dolor dictum lacinia. Nullam nunc magna, tincidunt eu porta in, faucibus sed magna. Suspendisse laoreet ornare ullamcorper. Nulla in tortor nibh. Pellentesque sed est vitae odio vestibulum aliquet in nec leo.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Sed volutpat ante id mauris laoreet vestibulum. Nam blandit felis non neque cursus aliquet. Morbi vel enim dignissim massa dignissim commodo vitae quis tellus. Nunc non mollis nulla. Sed consectetur elit id mi consectetur bibendum. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis. Aliquam sit amet purus lectus. Maecenas tempor ornare sollicitudin.</p>
+    </div>
+    
+    
+    
+<!-- DO NOT EDIT BELOW THIS LINE ================================================== -->
+
+
+    
+  </div>
+
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.touchSwipe.min.js"></script>
+<script src="js/jquery.liquid-slider.js"></script>
+<script>
+jQuery('#animated-button-scroller').liquidSlider({
+  autoHeight:false,
+  slideEaseFunction:'animate.css',
+  slideEaseDuration:1000,
+  heightEaseDuration:1000,
+  animateIn:"slideInRight",
+  animateOut:"slideOutLeft",
+  callback: function() {
+    var self = this;
+    jQuery('.animated-button-scroller-panel').each(function() {
+      jQuery(this).removeClass('animated ' + self.options.animateIn);
+    });
+  }
+});
+jQuery('.height-toggle').on('click', function(e) {
+  var api = jQuery.data( jQuery('#animated-button-scroller')[0], 'liquidSlider');
+  if (jQuery(this).text() === "turn off") {
+    api.options.autoHeight = false;
+    jQuery(this).text('turn on'); 
+    api.adjustHeight(false, api.getHeighestPanel());
+  } else {
+    api.options.autoHeight = true;
+    jQuery(this).text('turn off');
+    api.adjustHeight(true, api.getHeight());
+  }
+  e.preventDefault();
+});
+jQuery('.entrance button').on('click', function() {
+  jQuery('.entrance button').removeClass('pure-button-secondary');
+  var api = jQuery.data( jQuery('#animated-button-scroller')[0], 'liquidSlider');
+  jQuery(this).addClass('pure-button-secondary');
+  if (api.options.animateIn !== api.options.animateOut)
+    jQuery(api.panelClass).removeClass(api.options.animateIn);
+  api.options.animateIn = jQuery(this).text();
+});
+jQuery('.exit button').on('click', function() {
+  jQuery('.exit button').removeClass('pure-button-secondary');
+  var api = jQuery.data( jQuery('#animated-button-scroller')[0], 'liquidSlider');
+  jQuery(this).addClass('pure-button-secondary');
+  if (api.options.animateIn !== api.options.animateOut)
+    jQuery(api.panelClass).removeClass(api.options.animateOut);
+  api.options.animateOut = jQuery(this).text();
+});
+
+</script>
+
+<div class="design-view-animated-button-scroller"></div>
+
+</body>

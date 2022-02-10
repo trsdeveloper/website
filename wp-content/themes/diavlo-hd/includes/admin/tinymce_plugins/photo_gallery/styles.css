@@ -1,0 +1,2 @@
+#lm_photogallery {padding: 2px; position: absolute; display: none; z-index: 999998;}
+img.lmPhotoGallery{border: 1px dashed #888;background: #f2f8ff url("images/content_label.png") no-repeat scroll center center;width: 99%;height: 50px;}

@@ -1,0 +1,61 @@
+#i3d_contactform {padding: 2px; position: absolute; display: none; z-index: 999998;}
+.mce_i3d_contact_form img { width: 100px !important; }
+/*.mce_i3d_contact_form { width: 100px !important; }
+.mce-i3d_contact_form i { width: 100px !important; }
+*/
+img.i3d_contact_form  { border: 1px dotted #888;
+background: rgb(238,238,238) url("images/content_label.png") no-repeat scroll center center; /* Old browsers */
+
+
+
+
+width: 99%;
+height: 100px;
+cursor: default;
+}
+
+.i3d_contact_form:before {
+  content: "Hello world";	
+}
+
+.i3d_contact_form:after {
+  content: "Hello world2";	
+  font-family: Tahoma;
+}
+
+.mce_i3d_contact_form, .mce-i-i3d_contact_form {
+    font: 400 20px/1 dashicons !important;
+    padding: 0;
+    vertical-align: top;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: -2px;
+    padding-right: 2px;
+}
+
+span.mce_i3d_contact_form:before, .mce-i-i3d_contact_form:before {
+    content: "\f466";
+}
+
+canvas.test {
+	border: 1px dotted #888;
+	background: rgb(238,238,238) url("images/content_label.png") no-repeat scroll center center; /* Old browsers */
+background-image: none;
+
+
+
+
+width: 99%;
+height: 100px;
+cursor: default;
+display:block;
+clear: both;
+position: relative;
+}
+canvas.test:before {
+	content: "wow";
+    font-family: Tahoma;
+	font-size: 8pt;
+	color: #333;
+}

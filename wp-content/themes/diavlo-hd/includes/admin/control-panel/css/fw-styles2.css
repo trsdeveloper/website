@@ -1,0 +1,92 @@
+
+
+#adminmenushadow, #adminmenuback {
+    background-image: url("../../images/menu-shadow.png");
+    background-position: right top;
+    background-repeat: repeat-y;
+}
+#adminmenuback, #adminmenuwrap {
+    background-color: #ECECEC;
+    border-color: #CCCCCC;
+}
+#adminmenuback, #adminmenuwrap {
+    border-style: solid;
+    border-width: 0 1px 0 0;
+}
+#adminmenuback {
+    z-index: 0;
+}
+
+.branch-3-8 #adminmenuback, .branch-3-8 #adminmenuwrap,
+.branch-3-9 #adminmenuback, .branch-3-9 #adminmenuwrap,
+.branch-4-0 #adminmenuback, .branch-4-0 #adminmenuwrap,
+.branch-4 #adminmenuback, .branch-4 #adminmenuwrap,
+.branch-4-1 #adminmenuback, .branch-4-1 #adminmenuwrap {
+  background-color: #222222;
+}
+
+
+@media all and (max-width: 900px) {
+.auto-fold #wpcontent {
+	margin-left: 33px;
+}
+	
+}
+
+#commentstatusdiv div.inside { padding: 0px 12px 0px 10px !important;
+background-color: transparent !important;
+}
+
+#commentstatusdiv br { display: none !important; }
+html { background-color: #ffffff; }
+
+#team-member-meta-box input.form-control { 
+    -moz-box-sizing:border-box !important;
+	-webkit-box-sizing:border-box !important;
+	-ms-box-sizing:border-box !important;
+	box-sizing:border-box !important; 
+}
+
+input, textarea, button { 	
+    -moz-box-sizing:content-box !important;
+	-webkit-box-sizing:content-box !important;
+	-ms-box-sizing:content-box !important;
+	box-sizing:content-box !important; 
+} 
+
+#screen-meta-links *,
+#wp-content-editor-tools *
+{ box-sizing: content-box; }
+
+
+.focal-box-layout-icon { 
+
+	border: 2px solid #cccccc;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	transition: 1s;
+	background-color: #ffffff;
+	cursor: pointer;
+}
+
+.focal-box-layout-icon:hover {
+		border: 2px solid #06C;
+}
+
+.focal-box-layout-icon-selected {
+		border: 2px solid #093 !important;
+}
+
+.fb_image_placeholder img { width: 100%; }
+.fb_image_placeholder { width: 150px; text-align: center; }
+
+.ab_image_placeholder img { width: 100%; }
+
+.ab_image_placeholder { width: 300px; text-align: center; }
+
+
+.tab-pane { background-color: #ffffff; }
+.layout-table-inner { background-color: #ffffff; }
+
+
